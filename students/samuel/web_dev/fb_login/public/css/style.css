@@ -1,0 +1,45 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: rgb(248, 240, 230);
+}
+
+.box {
+    width: min-content;
+    background-color: white;
+    box-shadow: inset;
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_text {
+    margin-top: 0.5rem;
+    width: 15rem;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 2px solid rgba(100, 100, 100, 0.1);
+    color: gray;
+}
+
+.submit {
+    margin-top: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 0;
+    background-color: rgb(78, 78, 117);
+    color: white;
+} 

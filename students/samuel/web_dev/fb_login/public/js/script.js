@@ -11,11 +11,4 @@ const clicked = () => {
     fetch('/api?username=' + name + '&userpassword=' + pass, {
         method: 'GET'
     })
-    fetch('/post', {
-        method: 'POST',
-        headers: {
-            "Content-Type": "application/json; charset=UTF-8"
-        },
-        body: JSON.stringify(data)
-    })
 }

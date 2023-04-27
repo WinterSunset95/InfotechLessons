@@ -15,16 +15,6 @@ app.use(cors())
 // Serve the 'public' directory
 app.use('/', express.static(path.join(__dirname, 'public')))
 
-app.post('/post', (req,res) => {
-    let uname = req.body ? req.body.username : null
-    let upass = req.body ? req.body.userpassword : null
-    let data = {
-        name: uname,
-        pass: upass
-    }
-    console.log(data)
-})
-
 app.get('/api', (req,res) => {
     let uname = req.query.username
     let upass = req.query.userpassword

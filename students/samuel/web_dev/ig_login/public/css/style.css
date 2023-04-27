@@ -20,6 +20,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    width: 20rem;
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .input_text {
@@ -64,3 +72,4 @@
     color: blue;
     margin: 1rem;
 }
+

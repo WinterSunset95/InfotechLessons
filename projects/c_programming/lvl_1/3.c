@@ -4,9 +4,9 @@
 
 int main()
 {
-    int r, area;
+    float r, area;
     printf("Enter the radius of the circle: ");
-    scanf("%lf", &r);
-    area = r * r;
-    printf("The area of the circle is %.2lf\n", area);
+    scanf("%f", &r);
+    area = r * r * 3.14;
+    printf("The area of the circle is %.2f\n", area);
 }

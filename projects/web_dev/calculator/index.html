@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="calculator">
+            <div class="display" id="display">0</div>
+            <table>
+                <tr>
+                    <td><button onclick="handleClick(7, 'number')">7</button></td>
+                    <td><button onclick="handleClick(8, 'number')">8</button></td>
+                    <td><button onclick="handleClick(9, 'number')">9</button></td>
+                    <td><button onclick="handleClick('+', 'operat')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="handleClick(4, 'number')">4</button></td>
+                    <td><button onclick="handleClick(5, 'number')">5</button></td>
+                    <td><button onclick="handleClick(6, 'number')">6</button></td>
+                    <td><button onclick="handleClick('-', 'operat')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="handleClick(1, 'number')">1</button></td>
+                    <td><button onclick="handleClick(2, 'number')">2</button></td>
+                    <td><button onclick="handleClick(3, 'number')">3</button></td>
+                    <td><button onclick="handleClick('x', 'operat')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="clearScreen()">C</button></td>
+                    <td><button onclick="handleClick(0, 'number')">0</button></td>
+                    <td><button onclick="handleClick('=', 'operat')">=</button></td>
+                    <td><button onclick="handleClick('/', 'operat')">/</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

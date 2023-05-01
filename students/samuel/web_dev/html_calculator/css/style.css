@@ -1,0 +1,38 @@
+.display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: fit-content;
+    border: 1px solid black;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_text {
+    width: max-content;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+td > button {
+    border: 1px solid black;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+}
+
+td:mousedown {
+    background-color: aquamarine;
+}

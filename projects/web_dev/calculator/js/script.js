@@ -6,7 +6,7 @@ let secondNum
 const clearScreen = () => {
     display.innerHTML = 0
 }
-const calculate = (input) => {
+const calculate = () => {
     let result
     if (firstNum && operator && secondNum) {
         if (operator == '+') {
